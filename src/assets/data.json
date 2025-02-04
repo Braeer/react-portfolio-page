@@ -1,3 +1,53 @@
 {
-  "aboutText": "Я - начинающий frontend разработчик. Я занимаюсь разработкой с использованием HTML, CSS и JavaScript, и, несмотря на отсутствие коммерческого опыта, я уже успел реализовать несколько интересных проектов."
+  "aboutText": "Я - начинающий frontend разработчик. Я занимаюсь разработкой с использованием HTML, CSS и JavaScript, и, несмотря на отсутствие коммерческого опыта, я уже успел реализовать несколько интересных проектов.",
+  "aboutCards": [
+    {
+      "title": "HTML 5",
+      "icon": "html.png"
+    },
+    {
+      "title": "CSS 3",
+      "icon": "css.png"
+    },
+    {
+      "title": "SASS",
+      "icon": "sass.png"
+    },
+    {
+      "title": "Tailwind",
+      "icon": "tailwindcss.png"
+    },
+    {
+      "title": "React",
+      "icon": "react.png"
+    },
+    {
+      "title": "JavaScript",
+      "icon": "javascript.png"
+    },
+    {
+      "title": "TypeScript",
+      "icon": "typescript.png"
+    },
+    {
+      "title": "redux",
+      "icon": "redux.png"
+    },
+    {
+      "title": "git",
+      "icon": "git.png"
+    },
+    {
+      "title": "docker",
+      "icon": "docker.png"
+    },
+    {
+      "title": "vite",
+      "icon": "vite.png"
+    },
+    {
+      "title": "nextjs",
+      "icon": "nextjs.png"
+    }
+  ]
 }
