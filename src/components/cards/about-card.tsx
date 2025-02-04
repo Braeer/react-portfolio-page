@@ -1,4 +1,4 @@
-import { Card } from './ui/card';
+import { Card } from '@/components/ui/card';
 
 export const AboutCard = ({ text, img }: { text: string; img: string }) => {
   return (

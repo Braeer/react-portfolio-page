@@ -1,5 +1,11 @@
 {
   "aboutText": "Я - начинающий frontend разработчик. Я занимаюсь разработкой с использованием HTML, CSS и JavaScript, и, несмотря на отсутствие коммерческого опыта, я уже успел реализовать несколько интересных проектов.",
+  "links": {
+    "github": "https://github.com/Braeer",
+    "telegram": "https://t.me/Braeer",
+    "email": "developer.timurbagaev@gmail.com",
+    "resume": ""
+  },
   "aboutCards": [
     {
       "title": "HTML 5",
@@ -48,6 +54,18 @@
     {
       "title": "nextjs",
       "icon": "nextjs.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "NextJS-Pizza",
+      "img": "nextjs-pizza.png",
+      "link": "https://nextjs-pizza.vercel.app/",
+      "gitLink": "https://github.com/MaximLazarev/nextjs-pizza",
+      "description": "NextJS-пиццерия",
+      "stack": [
+        ["NextJS", "React", "Typescript", "Redux", "Redux Toolkit", "React-Router-Dom", "SCSS"]
+      ]
     }
   ]
 }

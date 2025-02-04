@@ -1,5 +1,4 @@
-import { AboutCards } from '../about-cards';
-import { TitleText } from '../title-text';
+import { AboutCards, TitleText } from '../';
 import data from '@/assets/data.json';
 
 export const AboutMe = () => {
