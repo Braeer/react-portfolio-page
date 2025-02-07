@@ -59,13 +59,103 @@
   "projects": [
     {
       "title": "NextJS-Pizza",
-      "img": "nextjs-pizza.png",
-      "link": "https://nextjs-pizza.vercel.app/",
-      "gitLink": "https://github.com/MaximLazarev/nextjs-pizza",
-      "description": "NextJS-пиццерия",
+      "img": "next-pizza.webp",
+      "link": "https://nextjs-pizza-tau.vercel.app",
+      "gitLink": "https://github.com/Braeer/nextjs-pizza",
+      "description": "Аналог dodoPizza с использованием NextJS в качестве фреймворка бекенда и фронтенда,",
+      "stack": ["NextJS", "React", "Typescript", "Zustand", "TailwindCSS", "React-Hook-Form"],
+      "backendStack": ["NextJs", "Prisma", "Postgresql", "bcrypt", "Zod", "next-auth"]
+    },
+    {
+      "title": "Planner",
+      "description": "Сайт &&&",
+      "img": "planner.webp",
+      "link": "...",
+      "gitLink": "https://github.com/Braeer/nextjs-planner",
+      "backendGitLink": "https://github.com/Braeer/nestJs-planner",
       "stack": [
-        ["NextJS", "React", "Typescript", "Redux", "Redux Toolkit", "React-Router-Dom", "SCSS"]
-      ]
+        "NextJS",
+        "React",
+        "Typescript",
+        "Tanstack Query",
+        "TailwindCSS",
+        "Sonner",
+        "React-Hook-Form"
+      ],
+      "backendStack": ["NestJs", "Prisma", "Postgresql", "JWT", "TypeScript", "cookie-parser"]
+    },
+    {
+      "title": "React-Яхтклуб",
+      "description": "Сайт визитка яхтклуба с использованием React, TypeScript и Vite",
+      "img": "react-yachtclub.webp",
+      "link": "https://braeer.github.io/react-yachtclub/",
+      "gitLink": "https://github.com/Braeer/react-yachtclub",
+      "stack": ["React", "TypeScript", "TailwindCSS", "React-Modal", "Vite"]
+    },
+    {
+      "title": "React-Pizza",
+      "description": "Приложение для заказа пиццы с использованием React, TypeScript и Redux",
+      "img": "react-pizza.webp",
+      "link": "https://braeer.github.io/react-pizza-v2/",
+      "gitLink": "https://github.com/Braeer/react-pizza-v2",
+      "stack": ["React", "Redux Toolkit", "React-Router", "SASS", "TypeScript"]
+    },
+    {
+      "title": "Blog",
+      "description": "Сайт блога с использованием React и бекендом на NodeJS %%",
+      "img": "blog-mern.webp",
+      "link": "",
+      "gitLink": "https://github.com/Braeer/full-blog-mern",
+      "stack": ["React", "Redux Toolkit", "React-Router", "SASS", "Axios"],
+      "backendStack": ["NodeJS", "Express", "MongoDB", "Mongoose", "Express-Validator", "bcrypt"]
+    },
+    {
+      "title": "React-Sneakers",
+      "description": "Сайт магазина обуви сделанный на React",
+      "img": "react-sneakers.webp",
+      "link": "https://github.com/Braeer/react-sneakers",
+      "gitLink": "https://github.com/Braeer/react-sneakers",
+      "stack": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Axios"]
+    },
+    {
+      "title": "Vue-StartCraft",
+      "description": "Мини игра по игре starcraft на Vue-2",
+      "img": "vue2-startcraft.webp",
+      "link": "https://braeer.github.io/vue-siteStarCraft/",
+      "gitLink": "https://github.com/Braeer/vue-siteStarCraft",
+      "stack": ["HTML", "CSS", "JavaScript", "Vue-2"]
+    },
+    {
+      "title": "Konstruct",
+      "description": "Обычный лендинг с использование только HTML и CSS",
+      "img": "leading-konstruct.webp",
+      "link": "https://braeer.github.io/trainingWeb-Konstruct/",
+      "gitLink": "https://github.com/Braeer/trainingWeb-Konstruct",
+      "stack": ["HTML", "CSS"]
+    },
+    {
+      "title": "Basic Portfolio",
+      "description": "Обычный лендинг с использование только HTML и CSS",
+      "img": "leading-portfolio.webp",
+      "link": "https://braeer.github.io/tranningWeb--portfolio-/",
+      "gitLink": "https://github.com/Braeer/tranningWeb--portfolio-",
+      "stack": ["HTML", "CSS"]
+    },
+    {
+      "title": "Avtomotive",
+      "description": "Обычный лендинг с использование только HTML и CSS",
+      "img": "avtomotive.webp",
+      "link": "https://braeer.github.io/Web_Practical/",
+      "gitLink": "https://github.com/Braeer/Web_Practical",
+      "stack": ["HTML", "CSS"]
+    },
+    {
+      "title": "",
+      "description": "",
+      "img": "",
+      "link": "",
+      "gitLink": "",
+      "stack": []
     }
   ]
 }
