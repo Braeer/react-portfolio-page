@@ -31,7 +31,7 @@ export const ProjectModal = ({
         onClick={closeModal}>
         <X className="" />
       </Button>
-      <img src={`/img/projects/${img}`} className=" mx-auto" alt="" />
+      <img src={`/img/projects/${img}`} className=" mx-auto border-b-4 border-black" alt="" />
       <div className="p-5 text-black">
         <h2 className="text-3xl font-semibold font-TitleFonts">{title}</h2>
         <p className="mt-2 opacity-85">Описание</p>
