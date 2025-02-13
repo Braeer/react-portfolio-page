@@ -15,7 +15,7 @@ type Props = {
 
 export const ProjectCards = ({ data }: Props) => {
   return (
-    <div className="flex flex-wrap gap-5 py-5 px-1 md:px-5">
+    <div className="flex flex-wrap gap-5 xl:gap-x-10 justify-center">
       {data.map((item, index) => (
         <ProjectCard
           title={item.title}

@@ -1,20 +1,26 @@
-import { TitleText } from '../title-text';
+import { TitleText } from '../';
 import Data from '@/assets/data.json';
 
 export const Contacts = () => {
   return (
-    <section id="contacts" className="py-10 px-4 md:px-10 mt-10">
-      <TitleText>Контакты</TitleText>
-      <ul className="flex flex-col mt-10 text-xl gap-3 ml-6">
+    <section id="contacts" className=" px-4 mt-20 text-center">
+      <TitleText className="text-center">Контакты</TitleText>
+      <ul className="flex flex-col mt-10 text-xl gap-3 underline-offset-4">
         <li>
-          <a href={Data.links.resume}>Мое резюме</a>
+          <a href={Data.links.resume} className="hover:underline">
+            Мое резюме
+          </a>
         </li>
         <li className="text-base md:text-xl">{Data.links.email}</li>
         <li>
-          <a href={Data.links.telegram}>Telegram</a>
+          <a href={Data.links.telegram} className="hover:underline">
+            Telegram
+          </a>
         </li>
         <li>
-          <a href={Data.links.github}>GitHub</a>
+          <a href={Data.links.github} className="hover:underline">
+            GitHub
+          </a>
         </li>
       </ul>
     </section>

@@ -26,40 +26,45 @@ export const ProjectModal = ({
 }: Props) => {
   return (
     <div className="relative">
-      <button className="absolute top-1 right-3" onClick={closeModal}>
-        <X />
-      </button>
-      <h2 className="text-xl text-center font-Roboto my-3">{title}</h2>
-      <img src={`./public/img/projects/${img}`} className=" mx-auto" alt="" />
-      <div className="p-3">
-        <p className="text-center">{description}</p>
-      </div>
-      <h5 className="text-center mb-1">Стэк Фронта:</h5>
-      <ul className="flex flex-wrap justify-center gap-2 mx-auto">
-        {stack.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-      {backendStack && (
-        <>
-          <h5 className="text-center mb-1 mt-5">Стэк Бэкенда:</h5>
-          <ul className="flex flex-wrap justify-center gap-2 max-w-[400px] mx-auto">
-            {backendStack.map((item, index) => (
+      <Button
+        className="absolute top-[20px] right-5 p-2 bg-purple-500 rounded-xl text-white hover:text-black"
+        onClick={closeModal}>
+        <X className="" />
+      </Button>
+      <img src={`/img/projects/${img}`} className=" mx-auto" alt="" />
+      <div className="p-5 text-black">
+        <h2 className="text-3xl font-semibold font-TitleFonts">{title}</h2>
+        <p className="mt-2 opacity-85">Описание</p>
+        <p className="mb-3">{description}</p>
+        <div className="flex">
+          <h5 className="mb-1 font-semibold mr-2">Стек Фронта:</h5>
+          <ul className="flex flex-wrap gap-2">
+            {stack.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
           </ul>
-        </>
-      )}
-      <div className="flex justify-center gap-3 my-5">
-        <Button asChild>
+        </div>
+        {backendStack && (
+          <div className="flex mt-3">
+            <h5 className="mb-1 font-semibold mr-2">Стек Бэкенда:</h5>
+            <ul className="flex flex-wrap gap-2">
+              {backendStack.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+      <div className="flex justify-center gap-3 my-5 underline-offset-4">
+        <Button asChild className="hover:underline">
           <a href={gitLink}>Ссылка на Git</a>
         </Button>
         {backendGitLink && (
-          <Button asChild>
+          <Button asChild className="hover:underline">
             <a href={backendGitLink}>Ссылка на Git Backend</a>
           </Button>
         )}
-        <Button asChild>
+        <Button asChild className="hover:underline">
           <a href={link}>Посмотреть</a>
         </Button>
       </div>

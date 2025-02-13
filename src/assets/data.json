@@ -1,5 +1,6 @@
 {
-  "aboutText": "Я - начинающий frontend разработчик. Я занимаюсь разработкой с использованием HTML, CSS и JavaScript, и, несмотря на отсутствие коммерческого опыта, я уже успел реализовать несколько интересных проектов.",
+  "headerText": "Я всегда открыт для новых идей и стремлюсь к постоянному развитию в своей области. В своем портфолио я собрала проекты, которые демонстрируют мои навыки и креативный подход к решению задач.",
+  "aboutText": "В этой секции я хочу поделиться своими навыками, которые позволяют мне создавать качественные веб-приложения.",
   "links": {
     "github": "https://github.com/Braeer",
     "telegram": "https://t.me/Braeer",
@@ -9,51 +10,63 @@
   "aboutCards": [
     {
       "title": "HTML 5",
-      "icon": "html.png"
+      "icon": "html.png",
+      "shadow": "bg-[#FF6D00]"
     },
     {
       "title": "CSS 3",
-      "icon": "css.png"
+      "icon": "css.png",
+      "shadow": "bg-[#039BE5]"
     },
     {
       "title": "SASS",
-      "icon": "sass.png"
+      "icon": "sass.png",
+      "shadow": "bg-[#F06292]"
     },
     {
       "title": "Tailwind",
-      "icon": "tailwindcss.png"
+      "icon": "tailwindcss.png",
+      "shadow": "bg-[#00ACC1]"
     },
     {
       "title": "React",
-      "icon": "react.png"
+      "icon": "react.png",
+      "shadow": "bg-[#80DEEA]"
     },
     {
       "title": "JavaScript",
-      "icon": "javascript.png"
+      "icon": "javascript.png",
+      "shadow": "bg-[#FFD600]"
     },
     {
       "title": "TypeScript",
-      "icon": "typescript.png"
+      "icon": "typescript.png",
+      "shadow": "bg-[#1976D2]"
     },
     {
       "title": "redux",
-      "icon": "redux.png"
+      "icon": "redux.png",
+      "shadow": "bg-[#5F4BB6]"
     },
     {
       "title": "git",
-      "icon": "git.png"
+      "icon": "git.png",
+      "shadow": "bg-[#F4511E]"
     },
     {
       "title": "docker",
-      "icon": "docker.png"
+      "icon": "docker.png",
+      "shadow": "bg-[#2395EC]"
     },
     {
       "title": "vite",
-      "icon": "vite.png"
+      "icon": "vite.png",
+      "shadow": "bg-[#FCCA00]"
     },
     {
       "title": "nextjs",
-      "icon": "nextjs.png"
+      "icon": "nextjs.png",
+      "shadow": "bg-[#FFFFFF]"
     }
   ],
   "projects": [
@@ -68,7 +81,7 @@
     },
     {
       "title": "Planner",
-      "description": "Сайт &&&",
+      "description": "Сайт созданий планов с использованием NextJS в качестве фронтенда и NestJS в качестве бекенда",
       "img": "planner.webp",
       "link": "...",
       "gitLink": "https://github.com/Braeer/nextjs-planner",
@@ -98,7 +111,7 @@
       "img": "react-pizza.webp",
       "link": "https://braeer.github.io/react-pizza-v2/",
       "gitLink": "https://github.com/Braeer/react-pizza-v2",
-      "stack": ["React", "Redux Toolkit", "React-Router", "SASS", "TypeScript"]
+      "stack": ["React", "Redux-Toolkit", "React-Router", "SASS", "TypeScript"]
     },
     {
       "title": "Blog",
@@ -106,14 +119,14 @@
       "img": "blog-mern.webp",
       "link": "",
       "gitLink": "https://github.com/Braeer/full-blog-mern",
-      "stack": ["React", "Redux Toolkit", "React-Router", "SASS", "Axios"],
+      "stack": ["React", "Redux-Toolkit", "React-Router", "SASS", "Axios"],
       "backendStack": ["NodeJS", "Express", "MongoDB", "Mongoose", "Express-Validator", "bcrypt"]
     },
     {
       "title": "React-Sneakers",
       "description": "Сайт магазина обуви сделанный на React",
       "img": "react-sneakers.webp",
-      "link": "https://github.com/Braeer/react-sneakers",
+      "link": "https://braeer.github.io/react-sneakers/",
       "gitLink": "https://github.com/Braeer/react-sneakers",
       "stack": ["HTML", "CSS", "JavaScript", "React", "React-Router", "Axios"]
     },
@@ -148,14 +161,6 @@
       "link": "https://braeer.github.io/Web_Practical/",
       "gitLink": "https://github.com/Braeer/Web_Practical",
       "stack": ["HTML", "CSS"]
-    },
-    {
-      "title": "",
-      "description": "",
-      "img": "",
-      "link": "",
-      "gitLink": "",
-      "stack": []
     }
   ]
 }

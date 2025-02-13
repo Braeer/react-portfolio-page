@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
 import React from 'react';
 import Modal from 'react-modal';
 import { ProjectModal } from '../project-modal';
@@ -23,10 +22,12 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    backgroundColor: '#475669',
-    width: '90%',
-    maxWidth: '800px',
+    backgroundColor: 'rgba(246, 247, 235, 1)',
+    width: '80%',
+    maxWidth: '905px',
+    maxHeight: '90vh',
     border: 'none',
+    borderRadius: '20px',
     padding: '0px',
   },
   overlay: {
@@ -55,25 +56,29 @@ export const ProjectCard = ({
   };
   return (
     <>
-      <Card className="relative flex flex-col items-center gap-2 max-w-[300px] min-h-[400px] bg-slate-600 border-none text-white">
-        <CardContent className=" w-full p-0">
+      <div className="flex flex-col items-center w-[385px] px-5 h-[403px] bg-[#FDFDFD] bg-opacity-[0.14] rounded-[15px] text-white ">
+        <div className=" w-full p-0">
           {img ? (
-            <img src={`./public/img/projects/${img}`} className="w-[300px] rounded-sm" alt="" />
+            <img
+              src={`/img/projects/${img}`}
+              className="w-full mx-auto mt-4 max-h-[200px] rounded-[15px] overflow-hidden"
+              alt=""
+            />
           ) : (
-            <div className="w-[300px] h-[200px] bg-gray-400 rounded-sm" />
+            <div className="w-full h-[200px] bg-gray-400 rounded-[15px] mt-4" />
           )}
-          <CardTitle className="text-center p-2">{title}</CardTitle>
-          <p className="p-2">{description}</p>
-          <div className="absolute top-[82%]   w-full flex justify-between p-4">
+          <h1 className="font-semibold font-TitleFonts text-[#F6F7EB] text-2xl mt-1">{title}</h1>
+          <p className="text-[#F6F7EB] text-base my-3 leading-5 h-[80px]">{description}</p>
+          {/* <div className=" mt-8 pb-8"> */}
+          <div className=" w-full flex justify-between">
             <Button asChild className="w-1/2">
-              <a href={link}>Перейти на сайт</a>
+              <a href={link}>Просмотреть</a>
             </Button>
-            <Button onClick={openModal} className="">
-              Подробнее
-            </Button>
+            <Button onClick={openModal}>Подробнее</Button>
           </div>
-        </CardContent>
-      </Card>
+          {/* </div> */}
+        </div>
+      </div>
       <Modal
         onRequestClose={closeModal}
         isOpen={modalIsOpen}

@@ -6,5 +6,5 @@ type Props = {
 };
 
 export const TitleText = ({ children, className }: Props) => {
-  return <h2 className={cn('text-5xl font-Liter', className)}>{children}</h2>;
+  return <h2 className={cn('text-5xl font-TitleFonts font-medium', className)}>{children}</h2>;
 };

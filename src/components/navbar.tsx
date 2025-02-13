@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
-    <nav className="justify-end flex py-5 md:p-5 md:mr-10">
-      <ul className="flex gap-9 text-lg">
+    <nav className="justify-end flex ">
+      <ul className="flex gap-9 text-lg underline-offset-4">
         <li>
           <a className="hover:underline" href="#projects">
             Проекты
