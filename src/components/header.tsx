@@ -4,8 +4,8 @@ import data from '@/assets/data.json';
 
 export const Header = () => {
   return (
-    <header className="relative bg-bg-header bg-cover bg-center text-white p-4 min-h-[100vh] w-full">
-      <div className="flex justify-between mt-12 mx-10 flex-col md:flex-row items-center">
+    <header className="relative bg-bg-header bg-cover bg-center text-white p-4 h-[80vh] min-h-[1000px] w-full">
+      <div className="flex justify-between md:mt-12 mx-10 flex-col md:flex-row items-center">
         <Logo />
         <Navbar />
       </div>
@@ -26,7 +26,7 @@ export const Header = () => {
           </Button>
         </div>
         <div className="mb-10">
-          <img src="/img/hero.svg" alt="" />
+          <img src="/img/hero.svg" alt="hero" />
         </div>
       </div>
       {/* <ArrowDown className="absolute bottom-24 left-16" size={50} /> */}
