@@ -44,27 +44,27 @@
       "shadow": "bg-[#1976D2]"
     },
     {
-      "title": "redux",
+      "title": "Redux",
       "icon": "redux.png",
       "shadow": "bg-[#5F4BB6]"
     },
     {
-      "title": "git",
+      "title": "Git",
       "icon": "git.png",
       "shadow": "bg-[#F4511E]"
     },
     {
-      "title": "docker",
+      "title": "Docker",
       "icon": "docker.png",
       "shadow": "bg-[#2395EC]"
     },
     {
-      "title": "vite",
+      "title": "Vite",
       "icon": "vite.png",
       "shadow": "bg-[#FCCA00]"
     },
     {
-      "title": "nextjs",
+      "title": "Nextjs",
       "icon": "nextjs.png",
       "shadow": "bg-[#FFFFFF]"
     }
@@ -83,7 +83,7 @@
       "title": "Planner",
       "description": "Сайт созданий планов с использованием NextJS в качестве фронтенда и NestJS в качестве бекенда",
       "img": "planner.webp",
-      "link": "...",
+      "link": "https://planner.timurbagaev.ru/",
       "gitLink": "https://github.com/Braeer/nextjs-planner",
       "backendGitLink": "https://github.com/Braeer/nestJs-planner",
       "stack": [
@@ -106,6 +106,23 @@
       "stack": ["React", "TypeScript", "TailwindCSS", "React-Modal", "Vite"]
     },
     {
+      "title": "React-Blog-v2",
+      "description": "Сайт блога с использованием React, TypeScript и бэкендом на NodeJS",
+      "img": "react-blog-v2.webp",
+      "link": "https://blog-v2.timurbagaev.ru/",
+      "gitLink": "https://github.com/Braeer/react-express-EDU-FrontAndBack",
+      "stack": [
+        "React",
+        "Redux-Toolkit",
+        "React-Router",
+        "TailwindCSS",
+        "Axios",
+        "Vite",
+        "React-Hook-Form"
+      ],
+      "backendStack": ["NodeJS", "Express", "MongoDB", "Prisma", "Jsonwebtoken", "bcrypt", "multer"]
+    },
+    {
       "title": "React-Pizza",
       "description": "Приложение для заказа пиццы с использованием React, TypeScript и Redux",
       "img": "react-pizza.webp",
@@ -117,7 +134,7 @@
       "title": "Blog",
       "description": "Сайт блога с использованием React и бекендом на NodeJS %%",
       "img": "blog-mern.webp",
-      "link": "",
+      "link": "https://blog-v1.timurbagaev.ru/",
       "gitLink": "https://github.com/Braeer/full-blog-mern",
       "stack": ["React", "Redux-Toolkit", "React-Router", "SASS", "Axios"],
       "backendStack": ["NodeJS", "Express", "MongoDB", "Mongoose", "Express-Validator", "bcrypt"]
